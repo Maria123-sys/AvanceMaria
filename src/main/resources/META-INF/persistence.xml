@@ -6,7 +6,6 @@
 	<persistence-unit name="demoWeb"
 		transaction-type="JTA">
 		<jta-data-source>java:/DemoTpDS</jta-data-source>
-		<class>org.example.entities.Customer</class>
 		<properties>
 			<property
 				name="javax.persistence.schema-generation.database.action"
